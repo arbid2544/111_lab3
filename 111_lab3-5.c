@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int num,i,j=1,ber,x=0;
-    scanf("%d",&num);
+    long num,i,j=1,ber,x=0;
+    scanf("%ld",&num);
     ber=num;
     int a[num];
     a[1]=0;
@@ -19,9 +19,9 @@ int main()
         }
     }
     if(x==3)
-        printf("%d is a Lucky Number.",ber);
+        printf("%ld is a Lucky Number.",ber);
     else
-        printf("%d is not a Lucky Number.",ber);
+        printf("%ld is not a Lucky Number.",ber);
 
     return 0;
 }
