@@ -9,19 +9,18 @@ int main()
     {
         if(num%i==0)
         {
-            //printf("%d\n",i);
             a[j]=i;
-            if(a[j]==a[j-1]){
-                printf("%d is not a Lukky Number",ber);
-                x=1;
-                break;
-
+            if(a[j]==a[j-1])
+                {
+                   printf("%d is not a Lukky Number.",ber);
+                   x=1;
+                   break;
                 }
             num/=i;
             i=1;
         }
     }
     if(x==0)
-        printf("%d is a Lukky Number",ber);
+        printf("%d is a Lukky Number.",ber);
     return 0;
 }
