@@ -18,9 +18,10 @@ int main()
                 }
             num/=i;
             i=1;
+            x+=1;
         }
     }
-    if(x==0)
+    if(x==3)
         printf("%d is a Lukky Number.",ber);
     return 0;
 }
