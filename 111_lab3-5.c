@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    long num,i,j=1,ber,x=0;
+    int num,i,j=1,ber,x=0;
     scanf("%d",&num);
     ber=num;
     int a[num];
@@ -19,9 +19,9 @@ int main()
         }
     }
     if(x==3)
-        printf("%d is a Lukky Number.",ber);
+        printf("%d is a Lucky Number.",ber);
     else
-        printf("%d is not a Lukky Number.",ber);
+        printf("%d is not a Lucky Number.",ber);
 
     return 0;
 }
