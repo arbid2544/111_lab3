@@ -12,7 +12,7 @@ int main()
             //printf("%d\n",i);
             a[j]=i;
             if(a[j]==a[j-1]){
-                printf("%d is not a lukky number",ber);
+                printf("%d is not a Lukky Number",ber);
                 x=1;
                 break;
 
@@ -22,6 +22,6 @@ int main()
         }
     }
     if(x==0)
-        printf("%d is a lukky number",ber);
+        printf("%d is a Lukky Number",ber);
     return 0;
 }
