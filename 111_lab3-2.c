@@ -14,9 +14,9 @@ int main()
         if(sum2<sum[i])
         {
             sum2=sum[i];
-            sum3=i+1;
+            sum3=i;
         }
     }
-    printf("%d %d",sum3,sum[sum3]);
+    printf("%d %d",sum3+1,sum[sum3]);
     return 0;
 }
